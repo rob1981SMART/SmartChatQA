@@ -1,0 +1,2 @@
+function module(n,t,e){var r,o,i;function u(n){var t=n.counters,e=void 0===t?[]:t;return o.createElement(r,null,e.map((function(n,t){var e=n.count,u=n.variation,c=n.description;return o.createElement(r.Item,{key:t},o.createElement(i,{count:e,variation:u,description:c}))})))}e.export({CounterSet:function(){return u}}),e.link("@rocket.chat/fuselage",{Grid:function(n){r=n}},0),e.link("react",{default:function(n){o=n}},1),e.link("./Counter",{Counter:function(n){i=n}},2)}
+

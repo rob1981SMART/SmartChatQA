@@ -1,0 +1,2 @@
+function module(e,t,l){let n,o,a,u,i,r,m;function c(e){let{lazyRouteComponent:t}=e,l=n(e,["lazyRouteComponent"]);r();const c=u(()=>a(t),[t]);return o.createElement(i,{fallback:o.createElement(m,null)},o.createElement(c,l))}l.link("@babel/runtime/helpers/objectWithoutProperties",{default(e){n=e}},0),l.link("react",{default(e){o=e},lazy(e){a=e},useMemo(e){u=e},Suspense(e){i=e}},0),l.link("../hooks/useAdminSideNav",{useAdminSideNav(e){r=e}},1),l.link("./PageSkeleton",{default(e){m=e}},2),l.exportDefault(c)}
+

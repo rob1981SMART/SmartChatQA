@@ -1,0 +1,2 @@
+function module(e,t,n){let r,o,i;function l(e){let{counters:t=[]}=e;return o.createElement(r,null,t.map((e,t)=>{let{count:n,variation:l,description:u}=e;return o.createElement(r.Item,{key:t},o.createElement(i,{count:n,variation:l,description:u}))}))}n.export({CounterSet:()=>l}),n.link("@rocket.chat/fuselage",{Grid(e){r=e}},0),n.link("react",{default(e){o=e}},1),n.link("./Counter",{Counter(e){i=e}},2)}
+

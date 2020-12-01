@@ -1,0 +1,2 @@
+function module(e,t,n){let l,o,a,i;function c(){const e=a();return o.createElement(i,null,o.createElement(i.Content,null,o.createElement(l,{is:"p",textColor:"default",textStyle:"p1"},e("You_are_not_authorized_to_view_this_page"))))}n.link("@rocket.chat/fuselage",{Box(e){l=e}},0),n.link("react",{default(e){o=e}},1),n.link("../../../../client/contexts/TranslationContext",{useTranslation(e){a=e}},2),n.link("../../../../client/components/basic/Page",{Page(e){i=e}},3),n.exportDefault(c)}
+

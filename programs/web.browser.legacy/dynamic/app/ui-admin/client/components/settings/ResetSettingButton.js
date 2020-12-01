@@ -1,0 +1,2 @@
+function module(t,n,e){var a,l,i,o,u;function r(t){var n=u();return o.createElement(l,a({"aria-label":n("Reset"),danger:!0,ghost:!0,small:!0,title:n("Reset"),style:{padding:0}},t),o.createElement(i,{name:"undo"}))}e.link("@babel/runtime/helpers/extends",{default:function(t){a=t}},0),e.export({ResetSettingButton:function(){return r}}),e.link("@rocket.chat/fuselage",{Button:function(t){l=t},Icon:function(t){i=t}},0),e.link("react",{default:function(t){o=t}},1),e.link("../../../../../client/contexts/TranslationContext",{useTranslation:function(t){u=t}},2)}
+
